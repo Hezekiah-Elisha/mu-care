@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+.signup-page {
+	width: 360px;
+	padding: 8% 0 0;
+	margin: auto;
+}
+
+.form {
+	position: relative;
+	z-index: 1;
+	background: #FFFFFF;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input[type='text'],
+.form input[type='email'],
+.form input[type='password'],
+.form select,
+.form input[type='date'],
+.form label {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid #CCCCCC;
+	background: transparent;
+	margin: 10px 0;
+}
+
+.form input[type='text']:focus,
+.form input[type='email']:focus,
+.form input[type='password']:focus,
+.form select:focus,
+.form input[type='date']:focus,
+.form label:focus {
+	outline: none;
+	border-bottom: 2px solid #3498DB;
+}
+
+.form select {
+	background: #F2F2F2;
+}
+
+.form label {
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+	color: #444444;
+}
+
+.form button[type='submit'] {
+	background: #3498DB;
+	color: #FFFFFF;
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+	margin: 20px 0;
+	cursor: pointer;
+}
+
+.form button[type='submit']:hover {
+	background: #3cb0fd;
+}
+
+.form .message {
+	margin: 15px 0 0;
+	color: #666666;
+	font-size: 12px;
+}
+
+.form .message a {
+	color: #3498DB;
+	text-decoration: none;
+}
+
+
