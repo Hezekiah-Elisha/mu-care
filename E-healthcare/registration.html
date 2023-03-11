@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>E-Healthcare</title>
+    </head>
+    <body>
+        <h1>REGISTRATION</h1>
+        <form action="register.php" method="post">
+             <label for="username"> Username: </label><br>
+             <input type="text" id="username" name="username"><br>
+        
+             <label for="email">Email:</label><br>
+             <input type="email" id="email" name="email"><br>
+
+             <label for="phonenumber">Phone number:</label><br>
+             <input type="number" id="quantity" name="quantity"><br>
+
+             <label for="gender"> Gender: </label><br>
+             <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="unspecified">Prefer not to say</option>
+            </select><br>
+
+             <label for="pwd">Password:</label><br>
+             <input type="password" id="pwd" name="pwd">
+        
+
+             <input type="submit" value="Register"><br>
+             <p>Already have an account?</p><br>
+             <button onclick="document.location='Login.html'">Login here</button>
+
+
+
+         </form>   
+    </body>
+</html>
