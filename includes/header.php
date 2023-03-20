@@ -10,7 +10,7 @@
 
 	<div class="right">
 		<a href="./login.php"><div class="far fa-user"  id=""></div></a>
-		<a href="./doc_loginup.php"><div class="fas fa-user-md" id=""></div></a>
+		<a href="./doc_login.php"><div class="fas fa-user-md" id=""></div></a>
 		<div class="fa-solid fa-bars" id="menu"></div>
 	</div>
 </div>
