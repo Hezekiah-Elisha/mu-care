@@ -1,9 +1,13 @@
 <?php 
 //variables
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+	error_reporting(E_ALL);
+
 	$servername = "localhost";//localhost
 	$name = "root";//root
 	$password = "";//empty string
-	$database = "mu-care";
+	$database = "mu_care";
 
 	//create connection
 	$conn = new mysqli($servername,$name,$password,$database);//variables declared
