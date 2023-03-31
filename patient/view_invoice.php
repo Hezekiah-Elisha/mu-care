@@ -1,6 +1,7 @@
 <?php 
 	session_start();
 	include '../resources/config.php';
+	require_once '../includes/fpdf.php';
 ?>
 <!DOCTYPE html>
 <html lang='en'>
@@ -228,6 +229,11 @@
 				<tr>
 					<td>Description</td>
 					<td><?php echo $row['description'];?></td>
+				</tr>
+				<tr>
+					<td>
+						<button>View Invoice</button>
+					</td>
 				</tr>
 			</table>
 		</form>
