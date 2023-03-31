@@ -15,7 +15,5 @@
 	//check connection
 	if($conn->connect_error){//display an error message
 		die("Connection failed" .$conn->connect_error);
-	}else{
-		echo "Connected successfully";
 	}
  ?>
