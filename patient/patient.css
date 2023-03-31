@@ -14,6 +14,9 @@ li{
 h1{
     color:#eee;
 }
+body{
+    margin:0;
+}
 .side-menu{
     position:fixed;
     background:royalblue;
@@ -30,6 +33,10 @@ h1{
     align-items:center;
     justify-content:center;
 }
+.side-menu ul{
+    flex:1;
+    padding:0;
+}
 .side-menu li{
     font-size:20px;
     padding:10px 20px;
@@ -37,8 +44,20 @@ h1{
     align-items:center;
 }
 .side-menu li:hover{
-    background:#eee;
-    color:#333;
+    background: azure;
+}
+.side-menu li a{
+    color:#fff;
+    text-decoration:none;
+}
+.side-menu li:hover a{
+    color:#333 !important;
+}
+.side-menu .logout:hover{
+    background-color: red;
+}
+.side-menu .logout:hover a{
+    color: azure !important;
 }
 .container{
     position:absolute;
@@ -125,7 +144,41 @@ h1{
 h3{
     color:#000;
 }
+
 .info{
     display: flex;
     justify-content: space-around;
+}
+
+.main_table_app{
+        width:100%;
+        table-layout:fixed;
+        width:100%;
+        border-collapse:collapse;
+}
+
+.main_table_app thead th{
+    position:sticky;
+    top:0;
+    background:#0298cf;
+    color:#fff;
+    font-size:22.3px;
+}
+.table_app th,td{
+    border-bottom:1px solid #dddddd;
+    padding:10px 20px;
+    word-break:break-all;
+    text-align:center;
+}
+.table_app tr:hover td{
+    color:#0298cf;
+    cursor:pointer;
+    background:#f6f9fc;
+}
+.table_app button{
+    outline:none;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    padding:10px;
 }
