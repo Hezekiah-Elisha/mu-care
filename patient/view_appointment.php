@@ -153,8 +153,8 @@
 		}
 		table{
 			width:100%;
-			table-layout:fixed
-			min-width:1000px;
+			table-layout:fixed;
+			width:100%;
 			border-collapse:collapse;
 		}
 		thead th{

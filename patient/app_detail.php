@@ -2,6 +2,8 @@
 <?php 
 	session_start();
 	include '../resources/config.php';
+
+	$id = $_GET['id'];
 ?>
 <!DOCTYPE html>
 <html lang='en'>
@@ -59,10 +61,14 @@
 			</div>
 			<?php 
 				$patient = $_SESSION['patient'];
-				$query ="SELECT * FROM appointment WHERE name='$patient'";
+				$query ="SELECT * FROM appointment WHERE id='$id'";
 
 				$res = mysqli_query($conn, $query);
 				$row = mysqli_fetch_array($res);
+
+				$q = "SELECT name FROM doctors WHERE id='$row[doctor_id]'";
+				$r = mysqli_query($conn, $q);
+				$ro = mysqli_fetch_array($r);
 			?>
 			<div class="profile">
 				<h2 style="padding-left:40%">My Appointment Note</h2>
@@ -100,6 +106,10 @@
 						<tr>
 							<td>Date Booked</td>
 							<td><?php echo $row['date_booked'];?></td>
+						</tr>
+						<tr>
+							<td>Doctor:</td>
+							<td>DR. <?php echo $ro['name'];?></td>
 						</tr>				
 					</table>
 				</div>
