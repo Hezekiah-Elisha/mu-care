@@ -9,144 +9,7 @@
 		<!--fontawesome cdn-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 		<link rel="stylesheet" href="./patient.css">
-	</head>
-	<!-- <style>
-		@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:wght@100&display=swap');
-		*{
-		text-transform:uppercase;
-		font-family: 'Oswald', sans-serif;
-		font-weight:normal;
-		box-sizing:border-box;
-		}
-		a{
-			text-decoration:none;
-		}
-		li{
-			list-style:none;
-		}
-		h1{
-			color:#eee;
-		}
-		.side-menu{
-			position:fixed;
-			background:royalblue;
-			color:#eee;
-			width:20vw;
-			top:0;
-			display:flex;
-			min-height:100vh;
-			flex-direction:column;
-		}
-		.side-menu .brand-name{
-			height:10vh;
-			display:flex;
-			align-items:center;
-			justify-content:center;
-		}
-		.side-menu li{
-			font-size:20px;
-			padding:10px 20px;
-			display:flex;
-			align-items:center;
-		}
-		.side-menu li:hover{
-			background:#eee;
-			color:#333;
-		}
-		.container{
-			position:absolute;
-			right:0;
-			width:80vw;
-			height:100vh;
-			background:#f1f1f1;
-		}
-		.container .header{
-			position:fixed;
-			top:0;
-			right:0;
-			width:80vw;
-			height:10vh;
-			background:#eee;
-			display:flex;
-			align-items:center;
-			justify-content:center;
-			box-shadow:0 4px 8px 0 rgba(0,0,0,.2);
-		}
-		.container .header .nav{
-			width:90%;
-			display:flex;
-			align-items:center;
-		}
-		.container .header .nav .search{
-			flex:3;
-			display:flex;
-			justify-content:center;
-		}
-		.container .header .nav .search input[type="text"]{
-			border:none;
-			background:#f1f1f1;
-			padding:10px;
-			width:50%;
-		}
-		.container .header .nav .search button{
-			width:40px;
-			height:40px;
-			border:none;
-			align-items:center;
-			justify-content:center;
-		}
-		.container .header .nav .search button i{
-			width:30px;
-			height:30px;
-		}
-		.container .header .nav .user{
-			flex:1;
-			display:flex;
-			justify-content:space-between;
-			align-items: center;
-		}
-		.btn{
-			background:#333;
-			color:#fff;
-			padding:5px 10px;
-			text-align:center;
-		}
-		.btn:hover{
-			padding:3px 8px;
-			cursor:none;
-		}
-		.container .header .nav .user .img-case{
-			position:relative;
-			width:80px;
-			height:50px;
-		}
-		.container .header .nav .user img{
-			width:40px;
-			height:40px;
-		}
-		.container .header .nav .user .img-case img{
-			position:absolute;
-			top:0;
-			left:0;
-			width:100%;
-
-		}
-		.profile{
-			padding-top:5%;
-		}
-		.profile img{
-			padding-left:30%;
-		}
-		.table-section{
-			padding-left:30%;
-			padding-top:10px;
-		}
-		
-		h3{
-			color:#000;
-		}
-	</style> -->
-	
+	</head>	
 	<body>
 		
 		<?php
@@ -191,7 +54,7 @@
 	?>
 	<div class="profile">
 		<h2 style="padding-left:50%">My Profile</h2>
-		<form method="post" enctype="multipart/form-data">
+		<div class="info">
 			<img src="./image5.png" style='height:250px';>
 			<div class="table-section">
 			<table>
@@ -215,7 +78,7 @@
 					<td><?php echo $row['gender'];?></td>
 				</tr>
 			</table>
-		</form>
+		</div>
 	</div>
 </div>
 
