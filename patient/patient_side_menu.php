@@ -10,7 +10,6 @@
 				<li><a href="./invoice.php"><i class="fas fa-book-reader"></i>&nbsp;my Invoice</a></li>
 				<li><a href="./send_report.php"><i class="fas fa-bell"></i>&nbsp;Send Reports</a></li>
 				<li><a href="./view_report.php"><i class="fas fa-bell"></i>&nbsp;View Reports</a></li>
-				<li><a href="./view_drugs.php"><i class="fas fa-shop"></i>&nbsp;View Drugs Available</a></li>
 				<li class="logout"><a href="./logout.php"><i class="fas fa-sign-out-alt"></i>&nbsp;Logout</a></li>
 			</ul>
 		</div>

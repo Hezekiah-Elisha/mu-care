@@ -4,7 +4,6 @@
 	<nav class="navbar">
 		<a href="index.php" class="active">Home</a>
 		<a href="services.php">Services</a>
-		<a href="">About Us</a>
 		<a href="contactus.php">Contact us</a>
 	</nav>
 
