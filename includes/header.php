@@ -3,9 +3,9 @@
 
 	<nav class="navbar">
 		<a href="index.php" class="active">Home</a>
-		<a href="">Services</a>
+		<a href="services.php">Services</a>
 		<a href="">About Us</a>
-		<a href="">Contact us</a>
+		<a href="contactus.php">Contact us</a>
 	</nav>
 
 	<div class="right">

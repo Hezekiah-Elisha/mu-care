@@ -13,6 +13,7 @@
 	<style>
 		.services{
 			padding-top:7%;
+			font-size: 2em;
 		}
 	@media(max-width:800px){
 		.services{
@@ -26,7 +27,7 @@
 	}
 	</style>
 	<body>
-		<?php include './includes/navbar.php';?>
+		<?php include './includes/header.php';?>
 
 		<section class="services">
 			<h1 class="head"><span>AFIACARE</span> SERVICES</h1>

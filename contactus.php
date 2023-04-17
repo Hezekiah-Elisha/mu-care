@@ -62,12 +62,12 @@
 	a{
 		text-decoration:none;
 	}
-	html{
-		font-size: 65%;
+	.contact-section{
+		font-size: 2em;
 	}
 </style>
 <body>
-	<?php include './includes/navbar.php';?>
+	<?php include './includes/header.php';?>
 
 	<section class="contact-section">
 		<div class="contact-body">
@@ -81,17 +81,17 @@
 				<div>
 					<span class="icon"><i class="fas fa-mobile"></i></span>
 					<span>PHONE NUMBER</span>
-					<span class="text">+254727497604</span>
+					<span class="text">+25412345678</span>
 				</div>
 				<div>
 					<span><i class="fas fa-mail-bulk"></i></span>
 					<span>EMAIL</span>
-					<span class="text">briangichuki23@gmail.com</span>
+					<span class="text">contact@mucare.co.ke</span>
 				</div>
 				<div>
 					<span><i class="fab fa-twitter"></i></span>
 					<span>TWITTER</span>
-					<span class="text">@AFIA-CARE</span>
+					<span class="text">@MU_CARE</span>
 				</div>
 				<div>
 					<span><i class="far fa-clock"></i></span>
